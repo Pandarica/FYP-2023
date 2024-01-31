@@ -1,0 +1,402 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class ParkClick1 : MonoBehaviour
+{   
+    public GameObject Correct;
+    public Button Button1;
+    public Button Button2;
+    public Button Button3;
+    public Button Button4;
+    public Button Button5;
+    public Button Button6;
+    public Button Button7;
+    public Button Button8;
+    public Button Button9;
+    public Button Button10;
+    public Button Button11;
+    public Button Button12;
+    public Button Button13;
+
+    private static int Bt1Check = 0;
+    private static int Bt2Check = 0;
+    private static int Bt3Check = 0;
+    private static int Bt4Check = 0;
+    private static int Bt5Check = 0;
+    private static int Bt6Check = 0;
+    private static int Bt7Check = 0;
+    private static int Bt8Check = 0;
+    private static int Bt9Check = 0;
+    private static int Bt10Check = 0;
+    private static int Bt11Check = 0;
+    private static int Bt12Check = 0;
+    private static int Bt13Check = 0;
+
+    public static int ItemsClicked = 0;
+
+    private void Start()
+    {
+        ItemsClicked = 0;
+            
+        Bt1Check = 0;
+        Bt2Check = 0;
+        Bt3Check = 0;
+        Bt4Check = 0;
+        Bt5Check = 0;
+        Bt6Check = 0;
+        Bt7Check = 0;
+        Bt8Check = 0;
+        Bt9Check = 0;
+        Bt10Check = 0;
+        Bt11Check = 0;
+        Bt12Check = 0;
+        Bt13Check = 0;
+    }
+
+    public void Update()
+    {
+        if (ItemsClicked == 0)
+        {   
+            if (Button1.interactable == false)
+            {
+                ItemsClicked++;
+                Bt1Check++;
+            }
+            else if (Button2.interactable == false)
+            {
+                ItemsClicked++;
+                Bt2Check++;
+            }
+            else if (Button3.interactable == false)
+            {
+                ItemsClicked++;
+                Bt3Check++;
+            }
+            else if (Button4.interactable == false)
+            {
+                ItemsClicked++;
+                Bt4Check++;
+            }
+            else if (Button5.interactable == false)
+            {
+                ItemsClicked++;
+                Bt5Check++;
+            }
+            else if (Button6.interactable == false)
+            {
+                ItemsClicked++;
+                Bt6Check++;
+            }
+            else if (Button7.interactable == false)
+            {
+                ItemsClicked++;
+                Bt7Check++;
+            }
+            else if (Button8.interactable == false)
+            {
+                ItemsClicked++;
+                Bt8Check++;
+            }
+            else if (Button9.interactable == false)
+            {
+                ItemsClicked++;
+                Bt9Check++;
+            }
+            else if (Button10.interactable == false)
+            {
+                ItemsClicked++;
+                Bt10Check++;
+            }
+            else if (Button11.interactable == false)
+            {
+                ItemsClicked++;
+                Bt11Check++;
+            }
+            else if (Button12.interactable == false)
+            {
+                ItemsClicked++;
+                Bt12Check++;
+            }
+            else if (Button13.interactable == false)
+            {
+                ItemsClicked++;
+                Bt13Check++;
+            }
+        }
+        else if (ItemsClicked == 1)
+        {
+            if (Button1.interactable == false && Bt1Check == 0)
+            {
+                ItemsClicked++;
+                Bt1Check++;
+            }
+            else if (Button2.interactable == false && Bt2Check == 0)
+            {
+                ItemsClicked++;
+                Bt2Check++;
+            }
+            else if (Button3.interactable == false && Bt3Check == 0)
+            {
+                ItemsClicked++;
+                Bt3Check++;
+            }
+            else if (Button4.interactable == false && Bt4Check == 0)
+            {
+                ItemsClicked++;
+                Bt4Check++;
+            }
+            else if (Button5.interactable == false && Bt5Check == 0)
+            {
+                ItemsClicked++;
+                Bt5Check++;
+            }
+            else if (Button6.interactable == false && Bt6Check == 0)
+            {
+                ItemsClicked++;
+                Bt6Check++;
+            }
+            else if (Button7.interactable == false && Bt7Check == 0)
+            {
+                ItemsClicked++;
+                Bt7Check++;
+            }
+            else if (Button8.interactable == false && Bt8Check == 0)
+            {
+                ItemsClicked++;
+                Bt8Check++;
+            }
+            else if (Button9.interactable == false && Bt9Check == 0)
+            {
+                ItemsClicked++;
+                Bt9Check++;
+            }
+            else if (Button10.interactable == false && Bt10Check == 0)
+            {
+                ItemsClicked++;
+                Bt10Check++;
+            }
+            else if (Button11.interactable == false && Bt11Check == 0)
+            {
+                ItemsClicked++;
+                Bt11Check++;
+            }
+            else if (Button12.interactable == false && Bt12Check == 0)
+            {
+                ItemsClicked++;
+                Bt12Check++;
+            }
+            else if (Button13.interactable == false && Bt13Check == 0)
+            {
+                ItemsClicked++;
+                Bt13Check++;
+            }
+        }
+        else if (ItemsClicked == 2)
+        {
+            if (Button1.interactable == false && Bt1Check == 0)
+            {
+                ItemsClicked++;
+                Bt1Check++;
+            }
+            else if (Button2.interactable == false && Bt2Check == 0)
+            {
+                ItemsClicked++;
+                Bt2Check++;
+            }
+            else if (Button3.interactable == false && Bt3Check == 0)
+            {
+                ItemsClicked++;
+                Bt3Check++;
+            }
+            else if (Button4.interactable == false && Bt4Check == 0)
+            {
+                ItemsClicked++;
+                Bt4Check++;
+            }
+            else if (Button5.interactable == false && Bt5Check == 0)
+            {
+                ItemsClicked++;
+                Bt5Check++;
+            }
+            else if (Button6.interactable == false && Bt6Check == 0)
+            {
+                ItemsClicked++;
+                Bt6Check++;
+            }
+            else if (Button7.interactable == false && Bt7Check == 0)
+            {
+                ItemsClicked++;
+                Bt7Check++;
+            }
+            else if (Button8.interactable == false && Bt8Check == 0)
+            {
+                ItemsClicked++;
+                Bt8Check++;
+            }
+            else if (Button9.interactable == false && Bt9Check == 0)
+            {
+                ItemsClicked++;
+                Bt9Check++;
+            }
+            else if (Button10.interactable == false && Bt10Check == 0)
+            {
+                ItemsClicked++;
+                Bt10Check++;
+            }
+            else if (Button11.interactable == false && Bt11Check == 0)
+            {
+                ItemsClicked++;
+                Bt11Check++;
+            }
+            else if (Button12.interactable == false && Bt12Check == 0)
+            {
+                ItemsClicked++;
+                Bt12Check++;
+            }
+            else if (Button13.interactable == false && Bt13Check == 0)
+            {
+                ItemsClicked++;
+                Bt13Check++;
+            }
+        }
+        else if (ItemsClicked == 3)
+        {   
+            if (Button1.interactable == false && Bt1Check == 0)
+            {
+                ItemsClicked++;
+                Bt1Check++;
+            }
+            else if (Button2.interactable == false && Bt2Check == 0)
+            {
+                ItemsClicked++;
+                Bt2Check++;
+            }
+            else if (Button3.interactable == false && Bt3Check == 0)
+            {
+                ItemsClicked++;
+                Bt3Check++;
+            }
+            else if (Button4.interactable == false && Bt4Check == 0)
+            {
+                ItemsClicked++;
+                Bt4Check++;
+            }
+            else if (Button5.interactable == false && Bt5Check == 0)
+            {
+                ItemsClicked++;
+                Bt5Check++;
+            }
+            else if (Button6.interactable == false && Bt6Check == 0)
+            {
+                ItemsClicked++;
+                Bt6Check++;
+            }
+            else if (Button7.interactable == false && Bt7Check == 0)
+            {
+                ItemsClicked++;
+                Bt7Check++;
+            }
+            else if (Button8.interactable == false && Bt8Check == 0)
+            {
+                ItemsClicked++;
+                Bt8Check++;
+            }
+            else if (Button9.interactable == false && Bt9Check == 0)
+            {
+                ItemsClicked++;
+                Bt9Check++;
+            }
+            else if (Button10.interactable == false && Bt10Check == 0)
+            {
+                ItemsClicked++;
+                Bt10Check++;
+            }
+            else if (Button11.interactable == false && Bt11Check == 0)
+            {
+                ItemsClicked++;
+                Bt11Check++;
+            }
+            else if (Button12.interactable == false && Bt12Check == 0)
+            {
+                ItemsClicked++;
+                Bt12Check++;
+            }
+            else if (Button13.interactable == false && Bt13Check == 0)
+            {
+                ItemsClicked++;
+                Bt13Check++;
+            }
+        }
+        else if (ItemsClicked == 4)
+        {   
+            if (Button1.interactable == false && Bt1Check == 0)
+            {
+                ItemsClicked++;
+                Bt1Check++;
+            }
+            else if (Button2.interactable == false && Bt2Check == 0)
+            {
+                ItemsClicked++;
+                Bt2Check++;
+            }
+            else if (Button3.interactable == false && Bt3Check == 0)
+            {
+                ItemsClicked++;
+                Bt3Check++;
+            }
+            else if (Button4.interactable == false && Bt4Check == 0)
+            {
+                ItemsClicked++;
+                Bt4Check++;
+            }
+            else if (Button5.interactable == false && Bt5Check == 0)
+            {
+                ItemsClicked++;
+                Bt5Check++;
+            }
+            else if (Button6.interactable == false && Bt6Check == 0)
+            {
+                ItemsClicked++;
+                Bt6Check++;
+            }
+            else if (Button7.interactable == false && Bt7Check == 0)
+            {
+                ItemsClicked++;
+                Bt7Check++;
+            }
+            else if (Button8.interactable == false && Bt8Check == 0)
+            {
+                ItemsClicked++;
+                Bt8Check++;
+            }
+            else if (Button9.interactable == false && Bt9Check == 0)
+            {
+                ItemsClicked++;
+                Bt9Check++;
+            }
+            else if (Button10.interactable == false && Bt10Check == 0)
+            {
+                ItemsClicked++;
+                Bt10Check++;
+            }
+            else if (Button11.interactable == false && Bt11Check == 0)
+            {
+                ItemsClicked++;
+                Bt11Check++;
+            }
+            else if (Button12.interactable == false && Bt12Check == 0)
+            {
+                ItemsClicked++;
+                Bt12Check++;
+            }
+            else if (Button13.interactable == false && Bt13Check == 0)
+            {
+                ItemsClicked++;
+                Bt13Check++;
+            }
+        }
+    }
+}
